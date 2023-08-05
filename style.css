@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #0093E9;
+    background-image: url(https://fondosmil.com/fondo/35152.jpg);
+    background-size: 190%;
+
+}
+
+.preguntas{
+    background-color: rgba(134, 69, 8, 0.473);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 250px;
+    margin:  20px;
+    border: 2px dashed black;
+    border-radius: 6px;
+}
+
+strong{
+    margin-bottom: 25px;
+    display: flex;
+    text-align: center;
+}
+
+label{
+    display: flex;
+    margin-top: -30px;
+    margin-left: 100px;
+    padding: 10px;
+    color: #ffff
+    ;
+}
+
+input{
+    display: flex;
+    border: none;
+    outline: none;
+    margin-left: -150px;
+
+}
+
+button{
+    background-color: darkgrey  ;
+    margin-top: 15px;
+    border:none;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    font-size: 10px;
+    background-color: rgb(175, 110, 12);
+    height: 30px;
+    transition: 10ms;
+}
+
+#divPuntos{
+    position: fixed;
+    background-color: rgba(255, 67, 10, 0.829);
+    bottom: 20px; 
+    right: 20px; 
+    padding: 10px;
+    width: 150px;
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px dashed #ccc;
+    font-size: x-large;
+    text-align: center;
+}
+
+@media (max-width: 500px) {
+    
+    .preguntas{
+        height: 300px;
+        width: 300px;
+    }
+    
+
+    h1{
+        text-align: center;
+        color: orange;
+    }
+}
